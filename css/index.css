@@ -1,0 +1,112 @@
+@font-face {
+  font-family: premier-league;
+  src: url('../fonts/PremierLeagueW01-Regular.ttf') format('truetype'),
+         url('../fonts/PremierLeagueW01-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+*{
+  font-family: premier-league !important;
+}
+body{
+  font-family: premier-league;
+}
+
+.wbb-navbar{
+  background: rgba(48,66,160,1);
+  font-family: premier-league;
+}
+.wbb-background{
+  background: url("../resources/bg_grey.png");
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  z-index: -1;
+}
+.wbb-navbar li a{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.wbb-carousel{
+  margin-top: 5% !important;
+}
+
+.wbb-logo{
+  height: 40px;
+  width: 40px;
+  background: url("../resources/hlogo.png");
+}
+
+.wbb-about-us{
+  top: 95%;
+  background: url("../resources/card_blue.png");
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  font-weight: 400;
+}
+
+.wbb-container{
+  margin-top: 5% !important;
+  color: white;
+}
+
+.wbb-membership{
+  background: url("../resources/bg_grey.png");
+  position: absolute;
+  width: 100%;
+
+  z-index: -1;
+  top:195%;
+}
+
+.wbb-button{
+  background: rgba(176,176,176,0) !important;
+  color: rgba(8,66,160,1) !important;
+  border: 1px solid rgba(8,66,160,1) !important;
+  box-shadow: none;
+}
+
+.wbb-button:hover{
+  background: rgba(8,66,160,1) !important;
+  color: white !important;
+
+}
+.input-field input[type=text]:focus + label {
+     color: rgba(8,66,160,1) !important;
+}
+
+.input-field input[type=text]:focus{
+     border-bottom: 1px solid rgba(8,66,160,1) !important;
+     box-shadow: 0 1px 0 0 rgba(8,66,160,1) !important;
+}
+.input-field input[type=email]:focus + label {
+     color: rgba(8,66,160,1) !important;
+}
+
+.input-field input[type=email]:focus{
+     border-bottom: 1px solid rgba(8,66,160,1) !important;
+     box-shadow: 0 1px 0 0 rgba(8,66,160,1) !important;
+}
+
+.wbb-register-text{
+  font-weight:800 !important;
+  margin-top:15%;
+  color: rgba(8,66,160,1) !important;
+}
+
+.wbb-a-button{
+  box-shadow: none !important;
+  background: rgba(0,0,0,0) !important;
+  border: 1px solid white !important;
+  color: white ;
+}
+
+.wbb-a-button:hover{
+  background: rgb(255,255,255) !important;
+  color: rgba(8,66,160,1);
+}

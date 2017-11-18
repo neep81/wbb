@@ -1,0 +1,25 @@
+.wbb-about-1{
+  background: url("../resources/bg_grey.png");
+  color: rgba(8,66,160,1) !important;
+  text-align: justify;
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+h2, h4{
+  font-weight: 800 !important;
+}
+.wbb-about-2{
+  background: url("../resources/card_blue_l.png");
+  background-size: cover;
+  color: white !important;
+  text-align: justify;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:100%;
+
+}
+.wbb-about-1 p{
+  font-size: 1rem;
+}
