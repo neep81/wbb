@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/materialize.min.css">
     <link rel="stylesheet" href="./css/schedule.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
   </head>
   <body>
     <?php include 'header.php'; ?>
 	<section id="cd-timeline" class="cd-container">
 
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture"> -->
+			<div class="cd-timeline-img cd-picture green">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -24,8 +25,8 @@
 		</div>
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+			<div class="cd-timeline-img cd-picture green">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -36,8 +37,8 @@
 		</div>
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+			<div class="cd-timeline-img cd-picture red">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -49,7 +50,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -61,7 +62,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -73,7 +74,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -85,7 +86,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -97,7 +98,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -109,7 +110,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -121,7 +122,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -133,7 +134,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -145,7 +146,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -157,7 +158,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -169,7 +170,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -181,7 +182,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -193,7 +194,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -205,7 +206,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
@@ -217,7 +218,7 @@
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">

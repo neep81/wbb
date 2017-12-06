@@ -6,11 +6,11 @@
     font-style: normal;
 
 }
-*{
+/**{
   font-family: premier-league !important;
-}
-body{
-  font-family: premier-league;
+}*/
+html,body{
+  font-family: premier-league !important;
 }
 
 .wbb-navbar{

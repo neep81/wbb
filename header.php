@@ -6,6 +6,7 @@
         <li><a href="about.php">About Us</a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <li><a href="schedule.php">ISL Schedule</a></li>
+        <li><a href="chants.php">Chants</a></li>
       </ul>
     </div>
   </nav>
