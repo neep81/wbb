@@ -19,8 +19,10 @@
 
 			<div class="cd-timeline-content">
         <img src="./resources/teams/bfc.png" alt="" style="" class="wbb-home">
+
         <img src="./resources/teams/mcfc.png" alt="" class="wbb-away">
-				<span class="cd-date">Nov 19</span>
+
+				<span class="cd-date">Final Score: 2-0</span>
 			</div>
 		</div>
 
@@ -32,19 +34,20 @@
 			<div class="cd-timeline-content">
         <img src="./resources/teams/bfc.png" alt="" style="" class="wbb-home">
         <img src="./resources/teams/dd.png" alt="" class="wbb-away">
-				<span class="cd-date">Nov 26</span>
+				<span class="cd-date">Final Score: 4-1</span>
 			</div>
 		</div>
 
     <div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture red">
+
 				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
         <img src="./resources/teams/fcg.png" alt="" style="" class="wbb-home">
         <img src="./resources/teams/bfc.png" alt="" class="wbb-away">
-				<span class="cd-date">Nov 30</span>
+				<span class="cd-date">Final Score: 3-4</span>
 			</div>
 		</div>
 

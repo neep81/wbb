@@ -55,7 +55,7 @@ existed to help them make their dreams a reality. We are the obsessed, the passi
         <div class="row">
           <div class="col l6 s12 m12 valign-wrapper">
             <div class="wbb-register-text">
-                <h2 style="">REGISTER <br> WITH US!</h2>
+                <h2 style="">CONTACT <br> &emsp;US!</h2>
             </div>
           </div>
           <form class="col s12 l6 m12">
@@ -77,7 +77,7 @@ existed to help them make their dreams a reality. We are the obsessed, the passi
             <div class="row">
               <div class="input-field col l12 m12 s12">
                 <input id="city" type="text" class="validate">
-                <label for="city">City</label>
+                <label for="city">Query</label>
               </div>
             </div>
 
