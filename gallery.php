@@ -5,6 +5,7 @@
     <title>Gallery</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <style media="screen">
       body{
         background: url("./resources/bg_grey.png");

@@ -12,7 +12,27 @@
 html,body{
   font-family: premier-league !important;
 }
+.wbb-navbar-fixed{
+  z-index:996 !important;
+}
+.wbb-secondary-navbar{
+  background-color: white;
+  color: rgba(8,66,160,1);
+}
+.wbb-secondary-navbar li a{
+  color:rgba(8,66,160,1);
+  height:40px;
+  /*margin-top: -10px;*/
+}
+.wbb-secondary-navbar li{
+  height:40px;
+  margin-top: -10px;
 
+}
+.wbb-secondary-navbar li a:hover{
+  text-shadow: none;
+  background-color: rgba(0,0,0,0);
+}
 .wbb-navbar{
   background: rgba(48,66,160,1);
   font-family: premier-league;

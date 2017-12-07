@@ -52,12 +52,12 @@ existed to help them make their dreams a reality. We are the obsessed, the passi
     <div class="wbb-membership">
       <div class="container wbb-container" style="color:black;">
         <div class="row">
-          <div class="col l6 valign-wrapper">
+          <div class="col l6 s12 m12 valign-wrapper">
             <div class="wbb-register-text">
                 <h2 style="">REGISTER <br> WITH US!</h2>
             </div>
           </div>
-          <form class="col s12 l6 m6">
+          <form class="col s12 l6 m12">
 
             <div class="row">
               <div class="input-field col l12 m12 s12">
@@ -98,7 +98,7 @@ existed to help them make their dreams a reality. We are the obsessed, the passi
       });
       setInterval(function() {
         $('.carousel').carousel('next');
-      },2000);
+      },5000);
     </script>
   </body>
 </html>
