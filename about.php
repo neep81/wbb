@@ -71,6 +71,45 @@
         </div>
       </div>
     </div>
+
+    <div class="wbb-about-3">
+      <div class="container">
+        <div class="row">
+
+          <form class="col s12 l6 m12">
+
+            <div class="row">
+              <div class="input-field col l12 m12 s12">
+                <input id="name" type="text" class="validate">
+                <label for="name">Name</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col l12 m12 s12">
+                <input id="email" type="email" class="validate">
+                <label for="email" data-error="wrong" data-success="right">Email</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col l12 m12 s12">
+                <input id="city" type="text" class="validate">
+                <label for="city">STATE</label>
+              </div>
+            </div>
+
+            <button class="wbb-button btn waves-effect waves-light" type="submit" name="action" style="font-weight:600;">Submit
+            </button>
+          </form>
+          <div class="col l6 s12 m12 valign-wrapper">
+            <div class="wbb-register-text">
+                <h2 style="">REGISTER <br> WITH US!</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./js/jquery.js" charset="utf-8"></script>
     <script src="./js/materialize.min.js" charset="utf-8"></script>
     <script type="text/javascript">
