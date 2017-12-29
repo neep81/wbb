@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/materialize.min.css">
-    <link rel="stylesheet" href="./css/chants.css">
+    <!-- <link rel="stylesheet" href="./css/chants.css"> -->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <style media="screen">
       body{
@@ -35,6 +35,17 @@
       }
       .wbb-player-controls{
         background-color: rgba(176,176,176,1) !important;
+      }
+      .wbb-chant-card{
+        margin-bottom: 1rem;
+      }
+
+      @media (max-device-width: 532px) {
+        .wbb-chant-lyrics{
+          font-size: 2rem;
+
+
+        }
       }
     </style>
   </head>
@@ -135,15 +146,15 @@
     </div>
 
     <div class="container">
-      <div class="row">
+
       <?php
       $counter = 0;
       foreach ($chantsJson as $audio => $lyrics) {
 
           if ($counter%2 == 0) {
             echo '
-
-                <div class="col s12 m12 l6">
+                <div class="row">
+                <div class="col s12 m12 l6 wbb-chant-card">
                   <div class="card">
                       <div class="card-title wbb-chant">
                         <p class="wbb-chant-lyrics">
@@ -166,7 +177,7 @@
       ';
           }
           else{
-            echo '<div class="col s12 m12 l6">
+            echo '<div class="col s12 m12 l6 wbb-chant-card">
               <div class="card">
                 <div class="card-title wbb-chant">
                   <p class="wbb-chant-lyrics">
@@ -186,14 +197,14 @@
                 </audio>
               </div>
             </div>
-
+            </div>
 
         ';
           }
           $counter = $counter +1;
       }
        ?>
-       </div>
+
      </div>
 
 
@@ -216,6 +227,9 @@
         chant.pause();
         chant.currentTime = 0;
       }
+      $(document).ready(function(){
+        $(".button-collapse").sideNav();
+      });
     </script>
   </body>
 </html>

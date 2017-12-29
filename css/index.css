@@ -12,6 +12,13 @@
 html,body{
   font-family: premier-league !important;
 }
+#carousel-mob{
+  display: none;
+
+}
+#sidenav-overlay{
+  z-index: 996 !important;
+}
 .wbb-navbar-fixed{
   z-index:996 !important;
 }
@@ -50,7 +57,7 @@ html,body{
 }
 
 .wbb-carousel{
-  margin-top: 5% !important;
+  margin-top: 2% !important;
 }
 
 .wbb-logo{
@@ -129,4 +136,106 @@ html,body{
 .wbb-a-button:hover{
   background: rgb(255,255,255) !important;
   color: rgba(8,66,160,1);
+}
+/* medium screens*/
+@media ( min-width: 532px ) and (max-width: 900px){
+
+  .wbb-carousel{
+    margin-top: 10% !important;
+  }
+}
+/* small screens*/
+@media (max-width: 531px) {
+  #carousel-mob{
+    display: block;
+    margin-top: 15% !important;
+  }
+  #carousel-laptop{
+    display: none;
+  }
+
+}
+/* mobile screens*/
+@media (max-device-width: 532px) {
+  #carousel-mob{
+    display: block;
+    margin-top: 15% !important;
+  }
+  #carousel-laptop{
+    display: none;
+  }
+
+  .wbb-background{
+    background: url("../resources/bg_grey_mob.png");
+  }
+
+  .wbb-about-us{
+    background: url("../resources/card_blue_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .wbb-about-us h2{
+    font-size: 5.56rem !important;
+    margin-top: 24%;
+  }
+  .wbb-about-us{
+    font-size: 2.7rem;
+
+  }
+  .wbb-about-us .btn-large{
+    height: 72px;
+    line-height: 72px;
+    font-size: 2rem;
+  }
+
+  .wbb-membership label{
+    font-size: 2.7rem !important;
+  }
+  .wbb-membership input{
+    font-size: 2.7rem !important;
+    height: 7rem !important;
+  }
+  .wbb-membership button{
+    height: 72px;
+    line-height: 72px;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/*tablet screens*/
+@media (min-device-width: 533px) and (max-device-width: 1024px) {
+  #carousel-mob{
+    display: block;
+    margin-top: 15% !important;
+  }
+  #carousel-laptop{
+    display: none;
+  }
+
+  .wbb-background{
+    background: url("../resources/bg_grey_mob.png");
+  }
+
+  .wbb-about-us{
+    background: url("../resources/card_blue_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .wbb-about-us h2{
+    font-size: 4.56rem !important;
+    margin-top: 18%;
+  }
+  .wbb-about-us{
+    font-size: 1.5rem;
+
+  }
+  .wbb-about-us .btn-large{
+    height: 72px;
+    line-height: 72px;
+    font-size: 2rem;
+  }
 }

@@ -27,12 +27,12 @@
 
             <p>
             The love for our team has seen us be acknowledged by not only the club and players as
-            the 12 th man, but even got a tip of the hat from National Team coach, Stephen
-            Constantine in his book, “Delhi to the Den”.
+            the 12<sup>th</sup> man, but even got a tip of the hat from National Team coach, Stephen
+            Constantine in his book, <b style="font-weight:900;">Delhi to the Den</b>.
             </p>
 
             <p>
-            And this role as the 12 th man is taken extraordinarily seriously by each and every one of
+            And this role as the 12<sup>th</sup> man is taken extraordinarily seriously by each and every one of
             us, as we know that it is our duty to the team to be the loudest, most vociferous fans in
             all the land; to create an atmosphere so intimidating that the opponents never feel safe
             regardless of score or time; to express ourselves and our fervor for this beautiful club
@@ -42,7 +42,7 @@
 
           </div>
           <div class="col l6 push-l1 m12 s12">
-            <img src="./resources/about_us_1.jpg" alt="" class="img-responsive" style="width:100%;margin-top:50%;transform:translateY(-25%);">
+            <img src="./resources/about_us.jpeg" alt="" class="img-responsive wbb-about-image" style="">
           </div>
         </div>
 
@@ -53,31 +53,35 @@
       <div class="container">
         <div class="row">
           <div class="col l8 offset-l4 m12 s12" style="margin-top: 20%;">
-            However, it isn’t enough for us to simply do this at home and we are known to travel all
-            across the country and even the globe, letting the team know that wherever they go,
-            we’ll be close behind, trying to overwhelm and overcome the stadium as they do the
-            same on the pitch.
-            <br><br>
-            For the National Team, we are incredibly delighted to be part of The Blue Pilgrims
-            Initiative which serves as a point of congregation of fans of the National Team at any
-            age level. So regardless of any domestic rivalries that we have, you will always find a
-            home with us to support our Country at any age level and any competition.
-            Beyond this, we are constantly searching for new and innovative ways to support the
-            club and the National Team, and have also been involved in various non-profit activities
-            away from football as well.
-            <br><br>
-            <h4>Proudly,<br> We are The West Block Blues!!.</h4>
+            <p>
+              However, it isn’t enough for us to simply do this at home and we are known to travel all
+              across the country and even the globe, letting the team know that wherever they go,
+              we’ll be close behind, trying to overwhelm and overcome the stadium as they do the
+              same on the pitch.
+              <br><br>
+              For the National Team, we are incredibly delighted to be part of The Blue Pilgrims
+              Initiative which serves as a point of congregation of fans of the National Team at any
+              age level. So regardless of any domestic rivalries that we have, you will always find a
+              home with us to support our Country at any age level and any competition.
+              Beyond this, we are constantly searching for new and innovative ways to support the
+              club and the National Team, and have also been involved in various non-profit activities
+              away from football as well.
+              <br><br>
+              <h4>Proudly,<br> We are The West Block Blues.</h4>
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="wbb-about-3">
+    <div class="wbb-about-3" id="wbb-register">
       <div class="container">
         <div class="row">
 
           <form class="col s12 l6 m12">
-
+            <div class="wbb-register-text">
+                <h2 style="">REGISTER <br> WITH US!</h2>
+            </div>
             <div class="row">
               <div class="input-field col l12 m12 s12">
                 <input id="name" type="text" class="validate">
@@ -95,7 +99,7 @@
             <div class="row">
               <div class="input-field col l12 m12 s12">
                 <input id="city" type="text" class="validate">
-                <label for="city">STATE</label>
+                <label for="city">State</label>
               </div>
             </div>
 
@@ -103,9 +107,7 @@
             </button>
           </form>
           <div class="col l6 s12 m12 valign-wrapper">
-            <div class="wbb-register-text">
-                <h2 style="">REGISTER <br> WITH US!</h2>
-            </div>
+
           </div>
         </div>
       </div>
@@ -115,6 +117,7 @@
     <script type="text/javascript">
           $(document).ready(function(){
         $('.materialboxed').materialbox();
+        $(".button-collapse").sideNav();
       });
     </script>
   </body>

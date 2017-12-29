@@ -4,7 +4,7 @@
   text-align: justify;
   position: absolute;
   width: 100%;
-  height:100%;
+  min-height:100%;
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
@@ -18,19 +18,149 @@ h2, h4{
   text-align: justify;
   position: absolute;
   width: 100%;
-  height: 100%;
-  top:105%;
+  min-height: 100%;
+  top:100%;
 
   margin-top: 5%;
 
 }
 .wbb-about-3{
   position: absolute;
-  top: 205%;
+  top: 200%;
   width: 100%;
   background: url("../resources/card_inver.png");
   margin-top: 5%;
 }
 .wbb-about-1 p{
   font-size: 1rem;
+}
+
+.wbb-about-image{
+  width:100%;
+  margin-top:50%;
+  transform:translateY(-25%);
+}
+
+/* medium screens*/
+@media ( min-width: 532px ) and (max-width: 992px){
+  .wbb-about-image{
+    margin-top: 0%;
+    transform: none;
+
+  }
+  .wbb-about-2{
+    margin-top: 8rem;
+    background: url("../resources/card_blue_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/* small screens*/
+@media (max-width: 531px) {
+
+  .wbb-about-image{
+    margin-top: 0%;
+    transform: none;
+
+  }
+  .wbb-about-2{
+    margin-top: 8rem;
+    background: url("../resources/card_blue_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/* mobile screens*/
+@media (max-device-width: 532px) {
+  .wbb-about-1 p{
+    font-size: 2rem;
+
+  }
+  .wbb-about-1 h2{
+    font-size: 5.76rem;
+    margin-top: 5rem;
+  }
+  .wbb-about-1{
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .wbb-about-2 p{
+    font-size: 2rem;
+    margin-top: 7rem;
+  }
+  .wbb-about-2{
+    margin-top: 0px;
+    padding-top: 0px;
+    background: url("../resources/card_blue_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wbb-about-3{
+    margin-top: 0px;
+  }
+  .wbb-about-3 label{
+    font-size: 2.7rem !important;
+  }
+  .wbb-about-3 input{
+    font-size: 2.7rem !important;
+    height: 7rem !important;
+  }
+  .wbb-about-3 button{
+    height: 72px;
+    line-height: 72px;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/*tablet screens*/
+@media (min-device-width: 533px) and (max-device-width: 1023px) {
+  .wbb-about-1 p{
+    font-size: 1.7rem;
+
+  }
+  .wbb-about-1 h2{
+    font-size: 4.76rem;
+    margin-top: 5rem;
+  }
+  .wbb-about-1{
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .wbb-about-2 p{
+    font-size: 2rem;
+    margin-top: 7rem;
+  }
+  .wbb-about-2{
+    margin-top: 0px;
+    padding-top: 0px;
+    background: url("../resources/card_blue_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wbb-about-3{
+    margin-top: 0px;
+  }
+  .wbb-about-3 label{
+    font-size: 2.7rem !important;
+  }
+  .wbb-about-3 input{
+    font-size: 2.7rem !important;
+    height: 7rem !important;
+  }
+  .wbb-about-3 button{
+    height: 72px;
+    line-height: 72px;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/*iPad pro (large tablet) screens*/
+@media (min-device-width: 1024px) {
+
 }

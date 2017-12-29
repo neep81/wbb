@@ -78,6 +78,9 @@
 	      popupNavNextSelector:		'.nav-next',
         popupBackgroundColor: 'rgba(0,0,0,0)'
       });
+      $(document).ready(function(){
+        $(".button-collapse").sideNav();
+      });
     </script>
   </body>
 </html>
