@@ -16,6 +16,10 @@ html,body{
   display: none;
 
 }
+.circle{
+  height:200px !important;
+  width: 200px !important;
+}
 #sidenav-overlay{
   z-index: 996 !important;
 }
@@ -202,10 +206,38 @@ html,body{
     font-size: 2rem;
     margin-bottom: 4rem;
   }
+
+  .wbb-navbar{
+    line-height: 100px;
+    height:100px !important;
+
+  }
+
+   .wbb-hamburger{
+    height: 100px !important;
+    line-height: 100px !important;
+    font-size: 4rem !important;
+  }
+
+  .wbb-side-nav{
+    width: 60% !important;
+    background: url("../resources/bg_grey_mob.png");
+  }
+
+  .wbb-side-nav li{
+    line-height: 80px !important;
+    padding: 16px 0;
+  }
+
+  .wbb-side-nav li a{
+    height: 80px !important;
+    font-size: 2rem !important;
+    color: rgba(8,66,160,1) !important;
+  }
 }
 
 /*tablet screens*/
-@media (min-device-width: 533px) and (max-device-width: 1024px) {
+@media (max-device-width: 1024px) and (min-device-width: 533px) {
   #carousel-mob{
     display: block;
     margin-top: 15% !important;
@@ -237,5 +269,17 @@ html,body{
     height: 72px;
     line-height: 72px;
     font-size: 2rem;
+  }
+
+  .wbb-navbar{
+    line-height: 100px;
+    height:100px !important;
+
+  }
+
+  .wbb-hamburger{
+    height: 100px !important;
+    line-height: 100px !important;
+    font-size: 4rem !important;
   }
 }
