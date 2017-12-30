@@ -69,6 +69,11 @@ h2, h4{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .wbb-toast{
+    width: 100% !important;
+    font-size: 25px;
+  }
 }
 /* mobile screens*/
 @media (max-device-width: 532px) {
@@ -112,6 +117,11 @@ h2, h4{
     line-height: 72px;
     font-size: 2rem;
     margin-bottom: 4rem;
+  }
+
+  .wbb-toast{
+    width: 100% !important;
+    font-size: 25px;
   }
 }
 
@@ -157,6 +167,11 @@ h2, h4{
     line-height: 72px;
     font-size: 2rem;
     margin-bottom: 4rem;
+  }
+
+  .wbb-toast{
+    width: 100% !important;
+    font-size: 25px;
   }
 }
 

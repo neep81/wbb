@@ -236,7 +236,11 @@
     <script src="./js/materialize.min.js" charset="utf-8"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-        $(".button-collapse").sideNav();
+        $('.button-collapse').sideNav({
+            menuWidth: 800, // Default is 300
+            draggable: true, // Choose whether you can drag to open on touch screens,
+          }
+        );
       });
     </script>
   </body>

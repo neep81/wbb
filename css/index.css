@@ -6,6 +6,12 @@
     font-style: normal;
 
 }
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/ubuntu.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 /**{
   font-family: premier-league !important;
 }*/
@@ -20,6 +26,7 @@ html,body{
   height:200px !important;
   width: 200px !important;
 }
+
 #sidenav-overlay{
   z-index: 996 !important;
 }
@@ -33,6 +40,7 @@ html,body{
 .wbb-secondary-navbar li a{
   color:rgba(8,66,160,1);
   height:40px;
+
   /*margin-top: -10px;*/
 }
 .wbb-secondary-navbar li{
@@ -58,6 +66,7 @@ html,body{
 .wbb-navbar li a{
   font-size: 1.3rem;
   font-weight: 600;
+  font-family: Ubuntu;
 }
 
 .wbb-carousel{
@@ -124,6 +133,15 @@ html,body{
      box-shadow: 0 1px 0 0 rgba(8,66,160,1) !important;
 }
 
+.input-field input[type=tel]:focus + label {
+     color: rgba(8,66,160,1) !important;
+}
+
+.input-field input[type=tel]:focus{
+     border-bottom: 1px solid rgba(8,66,160,1) !important;
+     box-shadow: 0 1px 0 0 rgba(8,66,160,1) !important;
+}
+
 .wbb-register-text{
   font-weight:800 !important;
   margin-top:15%;
@@ -146,6 +164,27 @@ html,body{
 
   .wbb-carousel{
     margin-top: 10% !important;
+  }
+  .wbb-hamburger{
+   /*height: 100px !important;
+   line-height: 100px !important;*/
+   font-size: 2rem !important;
+ }
+
+  .wbb-side-nav{
+    width: 60% !important;
+    background: url("../resources/bg_grey_mob.png");
+  }
+
+  .wbb-side-nav li{
+    line-height: 54px !important;
+    padding: 6px 0;
+  }
+
+  .wbb-side-nav li a{
+    height: 54px !important;
+    font-size: 1.5rem !important;
+    color: rgba(8,66,160,1) !important;
   }
 }
 /* small screens*/
@@ -234,6 +273,11 @@ html,body{
     font-size: 2rem !important;
     color: rgba(8,66,160,1) !important;
   }
+
+  .wbb-toast{
+    width: 100% !important;
+    font-size: 35px !important;
+  }
 }
 
 /*tablet screens*/
@@ -281,5 +325,26 @@ html,body{
     height: 100px !important;
     line-height: 100px !important;
     font-size: 4rem !important;
+  }
+
+  .wbb-side-nav{
+    width: 60% !important;
+    background: url("../resources/bg_grey_mob.png");
+  }
+
+  .wbb-side-nav li{
+    line-height: 80px !important;
+    padding: 16px 0;
+  }
+
+  .wbb-side-nav li a{
+    height: 80px !important;
+    font-size: 2rem !important;
+    color: rgba(8,66,160,1) !important;
+  }
+
+  .wbb-toast{
+    width: 100% !important;
+    font-size: 35px !important;
   }
 }

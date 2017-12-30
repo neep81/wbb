@@ -1,3 +1,26 @@
+<?php
+  static $errorCode = 1;
+  if (isset($_POST['query-submit'])) {
+
+    try {
+      $conn = new PDO("mysql:host=localhost;dbname=wbb","root","root");
+      $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+
+      $stmt = $conn->prepare('INSERT INTO queries VALUES (:Id,:Name,:Email,:Query)');
+      $stmt->execute(array(
+        "Id"    => '',
+        "Name"  => $_POST['name'] ,
+        "Email" => $_POST['email'],
+        "Query" => $_POST['query']
+      ));
+      $errorCode = 0;
+    } catch (Exception $e) {
+      $errorCode = 1;
+    }
+
+  }
+
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,6 +30,11 @@
     <link rel="stylesheet" href="./css/materialize.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <?php include 'links.php'; ?>
+    <style media="screen">
+
+    
+
+    </style>
   </head>
   <body>
 
@@ -78,30 +106,30 @@
                 <h2 style="">CONTACT US!</h2>
             </div>
           </div>
-          <form class="col s12 l6 m12">
+          <form class="col s12 l6 m12" action="" method="POST">
 
             <div class="row">
               <div class="input-field col l12 m12 s12">
-                <input id="name" type="text" class="validate">
+                <input id="name" type="text" name="name" class="validate">
                 <label for="name">Name</label>
               </div>
             </div>
 
             <div class="row">
               <div class="input-field col l12 m12 s12">
-                <input id="email" type="email" class="validate">
+                <input id="email" type="email" name="email" class="validate" required>
                 <label for="email" data-error="wrong" data-success="right">Email</label>
               </div>
             </div>
 
             <div class="row">
               <div class="input-field col l12 m12 s12">
-                <input id="city" type="text" class="validate">
+                <input id="city" type="text" name="query" class="validate" required>
                 <label for="city">Query</label>
               </div>
             </div>
 
-            <button class="wbb-button btn waves-effect waves-light" type="submit" name="action" style="font-weight:600;">Submit
+            <button class="wbb-button btn waves-effect waves-light" type="submit" name="query-submit" style="font-weight:600;">Submit
             </button>
           </form>
 
@@ -116,11 +144,22 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('.carousel.carousel-slider').carousel({fullWidth:true, duration: 175});
-        $(".button-collapse").sideNav();
+        $('.button-collapse').sideNav({
+            menuWidth: 800, // Default is 300
+            draggable: true, // Choose whether you can drag to open on touch screens,
+          }
+        );
       });
       setInterval(function() {
         $('.carousel').carousel('next');
       },5000);
+
+      <?php
+        if ($errorCode != 1) {
+          echo "Materialize.toast('Query Submitted Successfully!', 5000, 'rounded wbb-toast');";
+          $errorCode = 1;
+        }
+       ?>
     </script>
   </body>
 </html>

@@ -17,3 +17,4 @@
 <link rel="icon" type="image/png" href="./icons/logo-icon-16x16.png" sizes="16x16">
 
 <link rel="shortcut icon" href="./icons/logo-icon-32x32.png">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />

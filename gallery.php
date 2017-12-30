@@ -80,7 +80,11 @@
         popupBackgroundColor: 'rgba(0,0,0,0)'
       });
       $(document).ready(function(){
-        $(".button-collapse").sideNav();
+        $('.button-collapse').sideNav({
+            menuWidth: 800, // Default is 300
+            draggable: true, // Choose whether you can drag to open on touch screens,
+          }
+        );
       });
     </script>
   </body>

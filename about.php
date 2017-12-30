@@ -1,3 +1,27 @@
+<?php
+  static $errorCode = 1;
+  if (isset($_POST['registration-submit'])) {
+
+    try {
+      $conn = new PDO("mysql:host=localhost;dbname=wbb","root","root");
+      $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+
+      $stmt = $conn->prepare('INSERT INTO registrations VALUES (:Id,:Name,:Number,:Email,:City)');
+      $stmt->execute(array(
+        "Id"     => '',
+        "Name"   => $_POST['name']   ,
+        "Number" => $_POST['number'] ,
+        "Email"  => $_POST['email']  ,
+        "City"   => $_POST['city']
+      ));
+      $errorCode = 0;
+    } catch (Exception $e) {
+      $errorCode = 1;
+    }
+
+  }
+
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -79,32 +103,37 @@
       <div class="container">
         <div class="row">
 
-          <form class="col s12 l6 m12">
+          <form class="col s12 l6 m12" method="POST" action="">
             <div class="wbb-register-text">
                 <h2 style="">REGISTER <br> WITH US!</h2>
             </div>
             <div class="row">
               <div class="input-field col l12 m12 s12">
-                <input id="name" type="text" class="validate">
+                <input id="name" type="text" name="name" class="validate" required>
                 <label for="name">Name</label>
               </div>
             </div>
-
             <div class="row">
               <div class="input-field col l12 m12 s12">
-                <input id="email" type="email" class="validate">
+                <input id="number" type="tel" name="number" class="validate" minlength="10" required>
+                <label for="number" data-error="wrong" data-success="right">Phone Number</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col l12 m12 s12">
+                <input id="email" type="email" name="email" class="validate" required>
                 <label for="email" data-error="wrong" data-success="right">Email</label>
               </div>
             </div>
 
             <div class="row">
-              <div class="input-field col l12 m12 s12">
-                <input id="city" type="text" class="validate">
-                <label for="city">State</label>
+              <div class="input-field col l12 m12 s12" >
+                <input id="city" type="text" name="city" class="validate" required>
+                <label for="city">City</label>
               </div>
             </div>
 
-            <button class="wbb-button btn waves-effect waves-light" type="submit" name="action" style="font-weight:600;">Submit
+            <button class="wbb-button btn waves-effect waves-light" type="submit" name="registration-submit" style="font-weight:600;">Submit
             </button>
           </form>
           <div class="col l6 s12 m12 valign-wrapper">
@@ -118,8 +147,19 @@
     <script type="text/javascript">
           $(document).ready(function(){
         $('.materialboxed').materialbox();
-        $(".button-collapse").sideNav();
+        $('.button-collapse').sideNav({
+            menuWidth: 800, // Default is 300
+            draggable: true, // Choose whether you can drag to open on touch screens,
+          }
+        );
       });
+
+      <?php
+        if ($errorCode != 1) {
+          echo "Materialize.toast('Registration completed Successfully!We will get back to you shortly.', 5000, 'rounded wbb-toast');";
+          $errorCode = 1;
+        }
+       ?>
     </script>
   </body>
 </html>
