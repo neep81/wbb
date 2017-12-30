@@ -53,50 +53,50 @@
 		</div>
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
+			<div class="cd-timeline-img cd-picture green">
 				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
         <img src="./resources/teams/neufc.png" alt="" style="" class="wbb-home">
         <img src="./resources/teams/bfc.png" alt="" class="wbb-away">
-				<span class="cd-date">Dec 8</span>
+				<span class="cd-date">Final Score: 0-1</span>
 			</div>
 		</div>
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
+			<div class="cd-timeline-img cd-picture green">
 				<i class="fa fa-2x fa-plane wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
         <img src="./resources/teams/pcfc.png" alt="" style="" class="wbb-home">
         <img src="./resources/teams/bfc.png" alt="" class="wbb-away">
-				<span class="cd-date">Dec 14</span>
+				<span class="cd-date">Final Score: 1-3</span>
 			</div>
 		</div>
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
+			<div class="cd-timeline-img cd-picture red">
 				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
         <img src="./resources/teams/bfc.png" alt="" style="" class="wbb-home">
         <img src="./resources/teams/cfc.png" alt="" class="wbb-away">
-				<span class="cd-date">Dec 17</span>
+				<span class="cd-date">Final Score: 1-2</span>
 			</div>
 		</div>
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
+			<div class="cd-timeline-img cd-picture red">
 				<i class="fa fa-2x fa-home wbb-home-logo fa-fw" aria-hidden="true"></i>
 			</div>
 
 			<div class="cd-timeline-content">
         <img src="./resources/teams/bfc.png" alt="" style="" class="wbb-home">
         <img src="./resources/teams/jamfc.png" alt="" class="wbb-away">
-				<span class="cd-date">Dec 21</span>
+				<span class="cd-date">Final Score: 0-1</span>
 			</div>
 		</div>
 
